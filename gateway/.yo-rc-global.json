@@ -2,7 +2,7 @@
   "generator-jhipster:7.8.1": {
     "promptValues": {
       "nativeLanguage": "en",
-      "microservicePath": "../app2"
+      "microservicePath": "../car-app"
     }
   }
 }
