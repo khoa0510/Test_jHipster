@@ -47,9 +47,9 @@ spring:
       # it can be set to any label, branch or commit of the configuration source Git repository
   datasource:
     type: com.zaxxer.hikari.HikariDataSource
-    url: jdbc:postgresql://localhost:5432/carapp
-    username: carapp
-    password:
+    url: jdbc:postgresql://satao.db.elephantsql.com/qaqayiok
+    username: qaqayiok
+    password: JgGpSbZ6JDJ5kPgohg25qV7T1onq0NW6
     hikari:
       poolName: Hikari
       auto-commit: false

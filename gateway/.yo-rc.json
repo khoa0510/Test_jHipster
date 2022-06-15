@@ -19,6 +19,7 @@
     "enableHibernateCache": false,
     "enableSwaggerCodegen": false,
     "enableTranslation": false,
+    "entities": ["Car", "Car2"],
     "entitySuffix": "",
     "jhiPrefix": "jhi",
     "jhipsterVersion": "7.8.1",

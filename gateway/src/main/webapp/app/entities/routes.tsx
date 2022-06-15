@@ -7,6 +7,7 @@ import ErrorBoundaryRoute from 'app/shared/error/error-boundary-route';
 
 import entitiesReducers from './reducers';
 
+import Car from './carapp/car';
 /* jhipster-needle-add-route-import - JHipster will add routes here */
 
 export default ({ match }) => {
@@ -16,6 +17,7 @@ export default ({ match }) => {
     <div>
       <Switch>
         {/* prettier-ignore */}
+        <ErrorBoundaryRoute path={`${match.url}car`} component={Car} />
         {/* jhipster-needle-add-route-path - JHipster will add routes here */}
       </Switch>
     </div>
